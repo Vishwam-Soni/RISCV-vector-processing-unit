@@ -1,4 +1,4 @@
-# OpenLane runs (very large)
+# OpenLane runs
 runs/
 tmp/
 issue_reproducible/
@@ -11,7 +11,7 @@ issue_reproducible/
 *.sdf
 *.spef
 
-# GDS / layout outputs (keep final one only if you want later)
+# GDS / layout outputs
 *.gds
 *.mag
 *.lef
