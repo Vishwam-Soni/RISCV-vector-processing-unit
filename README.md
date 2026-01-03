@@ -52,7 +52,13 @@ The design focuses on vector execution, multi-lane ALU operation, register file 
 - Final GDS verified in KLayout
 - Post-layout SDF generated
 - Area-optimized synthesis strategy
+  
+## Chip Layout (Final GDS)
+### Full Chip View
+![Full Chip](images/full_chip.png)
 
+### Clock Tree (CTS)
+![Clock Tree](images/cts_clock.png)
 
 ## Outputs
 - **GDSII**: `results/gds/vpu_top.gds`
