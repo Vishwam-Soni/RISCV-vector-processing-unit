@@ -4,9 +4,8 @@ This directory contains the full RTL-to-GDSII ASIC implementation of a
 32-bit RISC-V Vector Processing Unit (VPU) using the OpenLane flow
 and Sky130 PDK.
 
----
 
-## 📐 Design Overview
+## Design Overview
 
 - **Top module:** `vpu_top`
 - **ISA:** RISC-V RV32 (scalar control + custom vector datapath)
@@ -14,9 +13,8 @@ and Sky130 PDK.
 - **Vector Width:** Configurable (VLEN × EWIDTH)
 - **Technology:** Sky130A (sky130_fd_sc_hd)
 
----
 
-## 🛠️ OpenLane Flow Executed
+##  OpenLane Flow Executed
 
 The complete non-interactive OpenLane flow was successfully run:
 
@@ -50,9 +48,9 @@ The complete non-interactive OpenLane flow was successfully run:
    - DRC and LVS checks
    - Final GDSII generation
 
----
 
-## 📊 Key Results
+
+##  Key Results
 
 - **CTS completed successfully**
 - **Timing clean** (no setup violations post-CTS)
@@ -63,23 +61,18 @@ The complete non-interactive OpenLane flow was successfully run:
   - `vpu_top.sdf`
   - `vpu_top.lib`
 
----
-
-## 📂 Directory Structure
 
 
----
-
-## 🔍 Visualization
+##  Visualization
 
 The final layout was verified using **KLayout**, including:
 - CTS buffer insertion
 - Clock routing
 - Power grid integrity
 
----
 
-## 🧠 Key Learnings
+
+##  Key Learnings
 
 - RTL design for ASIC-friendly synthesis
 - Clock tree design and skew control
@@ -87,8 +80,7 @@ The final layout was verified using **KLayout**, including:
 - Debugging OpenLane routing & timing failures
 - End-to-end ASIC implementation workflow
 
----
 
-## 🚀 Status
 
-✅ RTL → GDSII flow completed successfully  
+##  Status
+ RTL → GDSII flow completed successfully  
