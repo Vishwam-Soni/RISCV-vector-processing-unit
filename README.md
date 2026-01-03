@@ -58,7 +58,7 @@ The design focuses on vector execution, multi-lane ALU operation, register file 
 ![Full Chip](images/full_chip.png)
 
 ### Clock Tree (CTS)
-![Clock Tree](images/cts_clock.png)
+![Clock Tree](images/clock_tree_cts.png)
 
 ## Outputs
 - **GDSII**: `results/gds/vpu_top.gds`
