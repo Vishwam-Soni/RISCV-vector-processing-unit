@@ -1,0 +1,27 @@
+# OpenLane runs (very large)
+runs/
+tmp/
+issue_reproducible/
+
+# Generated results
+*.log
+*.rpt
+*.csv
+*.json
+*.sdf
+*.spef
+
+# GDS / layout outputs (keep final one only if you want later)
+*.gds
+*.mag
+*.lef
+*.spice
+
+# Python / system junk
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Editor files
+.vscode/
